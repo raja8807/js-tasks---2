@@ -1,3 +1,12 @@
+function getNum(varName) {
+				let num = parseInt(prompt("Enter the "+varName));
+				while (Number.isInteger(num)==false){
+								num = parseInt(prompt("Please Enter a Valid "+varName));
+				}
+				return num;
+}
+
+
 function numToWord(num) {
     let word;
     if (num == 0) {
@@ -24,7 +33,7 @@ function numToWord(num) {
     return word;
 }
 
-let input = parseInt(prompt("Enter The Number :"));
+let input = getNum("Number");
 
 let temp = input;
 let x = "";

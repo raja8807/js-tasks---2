@@ -1,4 +1,4 @@
-function getNum(varName) {
+/*function getNum(varName) {
 				let num = parseInt(prompt("Enter "+varName))
 				while (Number.isInteger(num)==false){
 								num = parseInt(prompt("Please Enter a Valid "+varName))
@@ -20,4 +20,4 @@ let num2 = getNum("The 2nd Number")
 
 console.log(num1)
 console.log(opr)
-console.log(num2)
+console.log(num2) */

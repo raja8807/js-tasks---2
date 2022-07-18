@@ -1,4 +1,12 @@
-let range = parseInt(prompt("Enter The Range"));
+function getNum(varName) {
+				let num = parseInt(prompt("Enter "+varName))
+				while (Number.isInteger(num)==false){
+								num = parseInt(prompt("Please Enter a Valid "+varName))
+				}
+				return num;
+}
+
+let range = getNum("Range");
 let sum = 0;
 
 for(let i=1; i<=range; i++){
