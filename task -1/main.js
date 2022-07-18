@@ -27,7 +27,7 @@ function numToWord(num) {
 let input = parseInt(prompt("Enter The Number :"));
 
 let temp = input;
-let x = " ";
+let x = "";
 
 while(temp!=0){
     let lastDigit = temp%10;

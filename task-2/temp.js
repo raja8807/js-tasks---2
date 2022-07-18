@@ -7,7 +7,7 @@ function getNum(varName) {
 }
 
 function getOpr() {
-				let opr = prompt("Select The Operator (+, -, *, /)")
+				let opr = prompt("Select a Operator (+, -, *, /)")
 				while(opr != "+" && opr != "-" && opr != "*" && opr != "/"){
 								opr = prompt("Please Select a valid Operator from +, -, *, /")
 				}
@@ -15,23 +15,9 @@ function getOpr() {
 }
 
 let num1 = getNum("The 1st Number");
-let opr = getOpr();
+let opr = getOpr()
 let num2 = getNum("The 2nd Number")
 
-let out;
-
-if(opr == "+"){
-    out = num1 + num2;
-}else if(opr == "-"){
-    out = num1 - num2
-}else if(opr == "*"){
-    out = num1 * num2
-}else if (opr == "/"){
-    out = num1 / num2
-}
-
-console.log(num1+opr+num2+"="+out)
-
-
-
-
+console.log(num1)
+console.log(opr)
+console.log(num2)
