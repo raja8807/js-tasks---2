@@ -5,16 +5,16 @@ let out;
 
 if(opr == "+"){
     out = num1 + num2;
-    console.log(num1+opr+num2+"+"+out)
+    console.log(num1+opr+num2+"="+out)
 }else if(opr == "-"){
     out = num1 - num2
-    console.log(num1+opr+num2+"+"+out)
+    console.log(num1+opr+num2+"="+out)
 }else if(opr == "*"){
     out = num1 * num2
-    console.log(num1+opr+num2+"+"+out)
+    console.log(num1+opr+num2+"="+out)
 }else if (opr == "/"){
     out = num1 / num2
-    console.log(num1+opr+num2+"+"+out)
+    console.log(num1+opr+num2+"="+out)
 }else{
     console.log("Not valid Input")
 }

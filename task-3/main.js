@@ -1,4 +1,4 @@
-let year=2000;
+let year=parseInt(prompt("Enter the year"));
 
 if (year%4 === 0){
     out = year+" is a leap Year"
