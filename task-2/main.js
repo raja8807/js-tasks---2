@@ -1,7 +1,7 @@
 function getNum(varName) {
-	let num = parseInt(prompt("Enter " + varName))
+	let num = parseInt(prompt("Enter the" + varName))
 	while (Number.isInteger(num) == false) {
-		num = parseInt(prompt("Please Enter a Valid " + varName))
+		num = parseInt(prompt("Please Enter a Valid" + varName))
 	}
 	return num;
 }
@@ -14,9 +14,9 @@ function getOpr() {
 	return opr;
 }
 
-let num1 = getNum("The 1st Number");
+let num1 = getNum(" 1st Number");
 let opr = getOpr();
-let num2 = getNum("The 2nd Number")
+let num2 = getNum(" 2nd Number")
 
 let out;
 
